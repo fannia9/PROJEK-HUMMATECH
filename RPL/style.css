@@ -1,0 +1,73 @@
+.hero {
+  height: auto;
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  background-color: #ffffff;
+  transition: opacity 0.5s ease;
+}
+#loading.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.carousel-item img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 15px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about h2 {
+  color: #0d6efd;
+}
+
+#about ul li {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+footer a:hover {
+  color: #ffffff !important;
+}
+
+form input,
+form select {
+  border-radius: 0.5rem;
+}
+
+form label {
+  font-weight: 500;
+}
+
+.table thead {
+  background: linear-gradient(to right, #0d6efd, #0dcaf0);
+  color: #fff;
+}
